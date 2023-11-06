@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.base{
+    background: url(ap1.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.base .bar{
+    width: 100%;
+    height: 80px;
+    background: rgba(70, 69, 69, 0.596);
+    border-radius: 50px;
+}
+.base .bar ul{
+    text-align: center;
+    margin-right: 15px;
+    margin-top: -45px;
+    user-select: none;
+
+}
+.base .bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 25px
+
+}
+.base .bar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding:6px 13px;
+    color: rgb(255, 255, 255);
+}
+.base .bar ul li a:hover{
+    background: rgb(92, 1, 92);
+    border-radius: 10px;
+    transition: .5s;
+
+
+}
+.base .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+
+}
+.center h1{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+.center h2{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+.center button{
+    margin:35px 370px;
+
+}
+
+.base .bar .logo2{
+    float: right;
+    margin-top: 5px;
+    user-select: none;
+}
+
+.base .tus button{
+    height:50px;
+    width: 150px;
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(42, 2, 80);
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+    transition: .5s;
+
+
+}
+.base .tus button:hover{
+    background: black;
+}
+.base .logo{
+    user-select: none;
+}
+.base .tus a{
+    color: white;
+    text-decoration: none;
+}
+.base .fa{
+    margin-right: 8px;
+}
+.base .fa-solid{
+    margin-right: 8px;
+}
+
+.a1{
+    display: none;
+}
+
+.base ul li:hover .a1{
+    display: block;
+    position: absolute;
+    background: rgba(70, 69, 69, 0.596);
+    margin-top: 50px;
+    margin-left: -35px;
+    font-size: 3px;
+    font-family: sans-serif;
+}
+.base ul li:hover .a1 ul{
+    display: block;
+
+}
+.base ul li:hover .a1 ul li {
+    width: 450px;
+    padding: 10px;
+    text-align: left;
+    background: rgba(70, 69, 69, 0.596);;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
